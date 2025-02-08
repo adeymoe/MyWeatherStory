@@ -145,14 +145,7 @@ const Weather = () => {
                 </>
 
             }
-
-            {/* {outfitSuggestion && (
-                <div className="outfit-suggestion">
-                    <h3>Recommended Outfit</h3>
-                    <p>{outfitSuggestion}</p>
-                </div>
-            )} */}
-
+            
             {outfitSuggestion && (
                 <div className="outfit-suggestion">
                     {/* <h3>Outfit Suggestions</h3> */}
