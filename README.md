@@ -2,7 +2,7 @@
 ![alt text](image.png)
 Stay updated with real-time weather conditions! This app leverages the Gemini AI model to suggest the perfect outfit and essential tips for the day
 
-**Link to project:** http://
+**Link to project:** http://https://myweatherstory.onrender.com/
 
 
 ## How It's Made:
