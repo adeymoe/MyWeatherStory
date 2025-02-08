@@ -1,0 +1,195 @@
+.weather{
+    place-self: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #2f4680, #500ae4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.search-bar input{
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    color: #626262;
+    background: #ebfffc;
+    font-size: 18px;
+}
+
+.search-bar img{
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background: #ebfffc;
+    cursor: pointer;
+}
+
+.weather-icon{
+    width: 150px;
+    margin: 30px 0;
+}
+
+.temperature{
+    color: #fff;
+    font-size: 80px;
+    line-height: 1;
+}
+
+.location{
+    color: #fff;
+    font-size: 40px;
+}
+.weather-data{
+    width: 100%;
+    margin-top: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-data .col{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 22px;
+}
+
+.weather-data .col span{
+    display: block;
+    font-size: 16px;
+}
+
+.weather-data .col img{
+    width: 26px;
+    margin-top: 10px;
+}
+
+.suggest-outfit {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.suggest-btn {
+    background: linear-gradient(45deg, #ff8c00, #ff2e63); /* Gradient background */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(255, 140, 0, 0.4);
+}
+
+.suggest-btn:hover {
+    background: linear-gradient(45deg, #ff2e63, #ff8c00); /* Reverse gradient on hover */
+    transform: scale(1.05); /* Slightly increase size */
+}
+
+.suggest-btn:active {
+    transform: scale(0.98); /* Press effect */
+    box-shadow: 0px 2px 5px rgba(255, 140, 0, 0.2);
+}
+
+/* .outfit-suggestion {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+ 
+.outfit-suggestion {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #ffffff, #f8f8f8); /* Soft gradient */
+    color: #333;
+    font-size: 18px;
+    text-align: left;
+    width: 85%;
+    max-width: 600px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Soft shadow */
+    transition: all 0.3s ease-in-out;
+}
+
+.outfit-suggestion:hover {
+    transform: translateY(-3px); /* Slight lift effect */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.outfit-suggestion h3 {
+    font-size: 24px;
+    color: #ff2e63; /* Stylish pink/red accent */
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.outfit-suggestion p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #444;
+}
+
+.outfit-suggestion ul {
+    list-style: none;
+    padding: 0;
+}
+
+.outfit-suggestion li {
+    background: #fff;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.3s ease-in-out;
+    line-height: 1.4;
+}
+
+.outfit-suggestion li strong {
+    color: #ff2e63; /* Highlighted category */
+}
+
+.outfit-suggestion li:hover {
+    background: #ffecec; /* Light red hover effect */
+}
+
+.outfit-suggestion li::before {
+    content: "✔️";
+    font-size: 18px;
+    color: #ff2e63;
+}
+
+/* Styling for Additional Tips */
+.tips {
+    font-size: 16px;
+    background: #ffecec;
+    padding: 10px;
+    border-left: 4px solid #ff2e63;
+    margin-top: 10px;
+    border-radius: 5px;
+}
