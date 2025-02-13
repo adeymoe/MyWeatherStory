@@ -16,7 +16,7 @@ My learning was focused on making a simple UI and a smooth UX, and taking advant
 When I improve this project, I would make the outfit suggestions in form of a card to give a more beautiful UI for an improved user experience
 ## Lessons Learned:
 
-I learned that creating a successful project, isn't determined by it's complexity.
+I learnt that creating a successful project, isn't determined by it's complexity.
 
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:

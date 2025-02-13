@@ -91,7 +91,7 @@ const Weather = () => {
             });
 
             const data = await response.json();
-            console.log(data);
+            // console.log(data);
 
             if (data.candidates && data.candidates.length > 0) {
                 setOutfitSuggestion(data.candidates[0].content.parts[0].text);
